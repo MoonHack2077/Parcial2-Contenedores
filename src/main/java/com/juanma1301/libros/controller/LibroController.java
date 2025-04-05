@@ -1,7 +1,7 @@
-package com.tuusuario.libros.controller;
+package com.juanma1301.libros.controller;
 
-import com.tuusuario.libros.model.Libro;
-import com.tuusuario.libros.service.LibroService;
+import com.juanma1301.libros.model.Libro;
+import com.juanma1301.libros.service.LibroService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
