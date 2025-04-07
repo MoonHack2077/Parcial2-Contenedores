@@ -1,0 +1,74 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "parcial2-contenedores",
+    "collectionId": "2db002a4-6281-4332-bac3-17660ff5881a",
+    "dateExported": "2025-04-07T04:24:27.803Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d9ff74f7-51b7-490a-aba5-1cb389fdc99d",
+            "colId": "2db002a4-6281-4332-bac3-17660ff5881a",
+            "containerId": "",
+            "name": "POST",
+            "url": "http://localhost:8080/api/libros",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-04-07T04:17:03.952Z",
+            "modified": "2025-04-07T04:21:48.165Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"titulo\": \"El Principito\",\n  \"autor\": \"Antoine de Saint-Exupéry\",\n  \"anio\": 1943,\n  \"editorial\": \"Reynal & Hitchcock\"\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "f481a4ec-3036-493b-9cf3-9042e4b47347",
+            "colId": "2db002a4-6281-4332-bac3-17660ff5881a",
+            "containerId": "",
+            "name": "GET",
+            "url": "",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-04-07T04:17:08.980Z",
+            "modified": "2025-04-07T04:23:25.603Z",
+            "headers": []
+        },
+        {
+            "_id": "b9a6beb6-ce4a-4f42-92a8-b73a0847f3ca",
+            "colId": "2db002a4-6281-4332-bac3-17660ff5881a",
+            "containerId": "",
+            "name": "PUT",
+            "url": "/1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2025-04-07T04:17:13.926Z",
+            "modified": "2025-04-07T04:23:18.325Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"titulo\": \"El Principito (Edición Actualizada)\",\n  \"autor\": \"Antoine de Saint-Exupéry\",\n  \"anio\": 1943,\n  \"editorial\": \"Edición Moderna\"\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "14466e0f-e7c2-4040-8223-274d9fc57c81",
+            "colId": "2db002a4-6281-4332-bac3-17660ff5881a",
+            "containerId": "",
+            "name": "DELETE",
+            "url": "/1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2025-04-07T04:17:19.076Z",
+            "modified": "2025-04-07T04:23:37.579Z",
+            "headers": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:8080/api/libros"
+        }
+    },
+    "ref": "aoaLm2JVjdl5WJwUlVBr0q2sqrwgzyQ3RIYZu_sNKDyxhD2l6vOE2Oqmbut838hDJ9KVe-_qV4k1silJGab0eQ"
+}
