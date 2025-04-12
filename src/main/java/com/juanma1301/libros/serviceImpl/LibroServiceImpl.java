@@ -1,8 +1,8 @@
-package com.tuusuario.libros.service.impl;
+package com.juanma1301.libros.serviceImpl;
 
-import com.tuusuario.libros.model.Libro;
-import com.tuusuario.libros.repository.LibroRepository;
-import com.tuusuario.libros.service.LibroService;
+import com.juanma1301.libros.model.Libro;
+import com.juanma1301.libros.repository.LibroRepository;
+import com.juanma1301.libros.service.LibroService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
